@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego</title>
+</head>
+<body>
+<h3> Juego de ahorcado</h3>
+<p th:text="${palabraactual}"></p>
+<label>Intentos restantes: </label>
+<p th:text="${intentosrestantes}"></p>
+<label>Introduce una letra:</label>
+<input type="text" name="letra"/>
+<input type="button" name="adivinar"/>
+
+</body>
+</html>
